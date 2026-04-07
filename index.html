@@ -1,1 +1,252 @@
+<!DOCTYPE html>
+<html lang="sr">
 
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pozivnica.website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+</head>
+
+<body>
+    <header class="hero">
+        <nav class="navbar container">
+            <div class="logo">Pozivnica.website</div>
+            <a href="#kontakt" class="nav-btn">Pošalji upit</a>
+        </nav>
+
+        <div class="hero-content container">
+            <div class="badge">Pozivnice u formi web sajta ✨</div>
+            <h1>Pozivnice koje svi jedva čekaju da dobiju!</h1>
+            <p>
+                Kreiramo moderne digitalne pozivnice za rođendane, svadbe i sve druge prilike u formi mini web sajta.
+                Zabavne, upečatljive i spremne za deljenje jednim klikom.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#primeri" class="btn btn-primary">Pogledaj primer</a>
+                <a href="#kontakt" class="btn btn-secondary">Naruči svoju pozivnicu</a>
+            </div>
+
+            <div class="hero-cards">
+                <div class="mini-card">
+                    <span>🎉</span>
+                    <p>Za rođendane</p>
+                </div>
+                <div class="mini-card">
+                    <span>📱</span>
+                    <p>Mobile friendly</p>
+                </div>
+                <div class="mini-card">
+                    <span>💌</span>
+                    <p>Lako deljenje linka</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="section" id="primeri">
+        <div class="container">
+            <div class="section-heading">
+                <span>Naši radovi</span>
+                <h2>Kako izgleda digitalna pozivnica?</h2>
+                <p>
+                    Svaka pozivnica je osmišljena da bude zabavna, moderna i potpuno prilagođena slavljeniku.
+                </p>
+            </div>
+
+            <div class="phone-example">
+
+                <div class="phone-real">
+                    <img src="images/phone.png" alt="Telefon" class="phone-img" />
+
+                    <div class="phone-screen">
+                        <iframe src="http://masin-i-vukasinov-18.netlify.app"></iframe>
+                    </div>
+                </div>
+                <!-- <article class="preview-card">
+          <div class="preview-top gradient-one"></div>
+          <div class="preview-body">
+          <iframe src="http://masin-i-vukasinov-18.netlify.app/"></iframe>
+          </div>
+        </article> -->
+            </div>
+        </div>
+    </section>
+
+    <section class="section soft-bg" id="kako-radi">
+        <div class="container">
+            <div class="section-heading">
+                <span>Proces izrade</span>
+                <h2>Kako funkcioniše?</h2>
+            </div>
+
+            <div class="steps-grid">
+                <div class="step-card">
+                    <div class="step-number">1</div>
+                    <h3>Pošalješ informacije</h3>
+                    <p>
+                        Datum, vreme, lokaciju, ime slavljenika, fotografije i željeni stil pozivnice.
+                    </p>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-number">2</div>
+                    <h3>Mi kreiramo dizajn</h3>
+                    <p>
+                        Pravimo unikatnu digitalnu pozivnicu u formi mini web sajta.
+                    </p>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-number">3</div>
+                    <h3>Ti deliš link</h3>
+                    <p>
+                        Pozivnicu lako šalješ prijateljima i gostima preko poruka ili društvenih mreža.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="prednosti">
+        <div class="container">
+            <div class="section-heading">
+                <span>Zašto baš ovo?</span>
+                <h2>Šta dobijaš?</h2>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🎨</div>
+                    <h3>Personalizovan dizajn</h3>
+                    <p>Pozivnica se pravi po temi, bojama i stilu koji želiš.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🎵</div>
+                    <h3>Muzika po želji</h3>
+                    <p>Mogućnost da pozivnica ima omiljeni vibe i dodatni wow efekat.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Brzo i moderno</h3>
+                    <p>Nema štampe, nema čekanja — sve je online i spremno za deljenje.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">💜</div>
+                    <h3>Za mlađu publiku</h3>
+                    <p>Vizuelno zanimljivo, trendi i prilagođeno današnjem načinu komunikacije.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section future-section">
+        <div class="container">
+            <div class="section-heading">
+                <span>Uskoro</span>
+                <h2>Širimo ponudu</h2>
+                <p>
+                    Trenutno su fokus rođendanske pozivnice, a uskoro dodajemo i nove formate.
+                </p>
+            </div>
+
+            <div class="future-grid">
+                <div class="future-card active">
+                    <h3>🎂 Pozivnice</h3>
+                    <p>Glavna usluga — digitalne rođendanske pozivnice u formi sajta.</p>
+                </div>
+                <div class="future-card">
+                    <h3>💌 Čestitke</h3>
+                    <p>Kreativne online čestitke za posebne trenutke.</p>
+                </div>
+                <div class="future-card">
+                    <h3>🙏 Zahvalnice</h3>
+                    <p>Elegantne i moderne digitalne zahvalnice za goste i prijatelje.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section" id="kontakt">
+        <div class="container cta-box">
+            <div>
+                <span class="cta-label">Spremni za sledeći događaj?</span>
+                <h2>Hajde da napravimo pozivnicu koju će svi pamtiti</h2>
+                <p>
+                    Javi se i pretvori običan poziv u mini digitalni doživljaj.
+                </p>
+                <div class="wa-contact-left-column">
+                    <br>
+                    <br>
+                    <br>
+
+                    <p>
+                        <br>
+                        Mozes da pises direktno i na
+                        <br>
+                        <a href="https://wa.me/38169757382" target="_blank" class="whatsapp-btn">
+                            <svg width="28" height="28" viewBox="0 0 32 32" fill="currentColor">
+                                <path
+                                    d="M16.001 2.667c-7.364 0-13.334 5.97-13.334 13.334 0 2.352.617 4.664 1.79 6.705L2.667 29.333l6.827-1.75a13.266 13.266 0 006.507 1.683c7.364 0 13.334-5.97 13.334-13.334S23.365 2.667 16.001 2.667zm0 24c-2.027 0-4.012-.547-5.747-1.584l-.41-.244-4.054 1.039 1.083-3.95-.267-.418a10.65 10.65 0 01-1.64-5.678c0-5.893 4.787-10.68 10.68-10.68s10.68 4.787 10.68 10.68-4.787 10.68-10.68 10.68zm5.707-7.987c-.312-.156-1.847-.912-2.133-1.015-.286-.104-.494-.156-.702.156s-.806 1.015-.988 1.223c-.182.208-.364.234-.676.078-.312-.156-1.318-.485-2.51-1.546-.927-.827-1.552-1.847-1.734-2.159-.182-.312-.02-.48.136-.636.14-.139.312-.364.468-.546.156-.182.208-.312.312-.52.104-.208.052-.39-.026-.546-.078-.156-.702-1.69-.962-2.316-.253-.607-.51-.524-.702-.533l-.598-.01c-.208 0-.546.078-.832.39-.286.312-1.092 1.066-1.092 2.6s1.118 3.014 1.274 3.222c.156.208 2.2 3.357 5.332 4.706.746.322 1.327.514 1.78.658.748.238 1.43.204 1.969.124.6-.09 1.847-.755 2.108-1.485.26-.73.26-1.357.182-1.485-.078-.13-.286-.208-.598-.364z" />
+                            </svg>
+                            WhatsApp
+                        </a>
+                    </p>
+                </div>
+            </div>
+
+            <form class="contact-form" id="contactForm">
+                <input type="text" id="name" placeholder="Tvoje ime" required />
+                <input type="text" id="event" placeholder="Povod / rođendan" required />
+                <input type="email" id="email" placeholder="Email adresa" required />
+                <textarea id="message" rows="4" placeholder="Napiši kakvu pozivnicu želiš..." required></textarea>
+                <button type="submit" class="btn btn-primary form-btn">Pošalji upit</button>
+                <p id="formMessage" class="form-message"></p>
+            </form>
+
+            <div class="wa-contact-mobile">
+                <p class="wa-contact-items">
+                    <br>
+                    Mozes da pises direktno i na
+                    <br>
+                    <a href="https://wa.me/38169757382" target="_blank" class="whatsapp-btn">
+                        <svg width="28" height="28" viewBox="0 0 32 32" fill="currentColor">
+                            <path
+                                d="M16.001 2.667c-7.364 0-13.334 5.97-13.334 13.334 0 2.352.617 4.664 1.79 6.705L2.667 29.333l6.827-1.75a13.266 13.266 0 006.507 1.683c7.364 0 13.334-5.97 13.334-13.334S23.365 2.667 16.001 2.667zm0 24c-2.027 0-4.012-.547-5.747-1.584l-.41-.244-4.054 1.039 1.083-3.95-.267-.418a10.65 10.65 0 01-1.64-5.678c0-5.893 4.787-10.68 10.68-10.68s10.68 4.787 10.68 10.68-4.787 10.68-10.68 10.68zm5.707-7.987c-.312-.156-1.847-.912-2.133-1.015-.286-.104-.494-.156-.702.156s-.806 1.015-.988 1.223c-.182.208-.364.234-.676.078-.312-.156-1.318-.485-2.51-1.546-.927-.827-1.552-1.847-1.734-2.159-.182-.312-.02-.48.136-.636.14-.139.312-.364.468-.546.156-.182.208-.312.312-.52.104-.208.052-.39-.026-.546-.078-.156-.702-1.69-.962-2.316-.253-.607-.51-.524-.702-.533l-.598-.01c-.208 0-.546.078-.832.39-.286.312-1.092 1.066-1.092 2.6s1.118 3.014 1.274 3.222c.156.208 2.2 3.357 5.332 4.706.746.322 1.327.514 1.78.658.748.238 1.43.204 1.969.124.6-.09 1.847-.755 2.108-1.485.26-.73.26-1.357.182-1.485-.078-.13-.286-.208-.598-.364z" />
+                        </svg>
+                        WhatsApp
+                    </a>
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-wrap">
+            <div>
+                <h3>Pozivnica.website</h3>
+                <p>Digitalne pozivnice za sve prilike u formi web sajta.</p>
+            </div>
+            <div class="footer-links">
+                <a href="#primeri">Primeri</a>
+                <a href="#kako-radi">Kako radi</a>
+                <a href="#kontakt">Kontakt</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
